@@ -10,6 +10,11 @@ public class BuilderMain {
 
         System.out.println(car);
 
+        Member member = Member.builder()
+                .phone("01099881916")
+                .name("김준일")
+                .build();
+
     }
 
 }
